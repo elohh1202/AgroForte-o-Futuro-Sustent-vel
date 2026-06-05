@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte - O Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <i data-lucide="sprout"></i> <span>AgroForte</span>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Quem Somos</a></li>
+                    <li><a href="#pilares">Pilares</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i data-lucide="menu"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>O Equilíbrio Perfeito Entre Produção e Meio Ambiente</h1>
+            <p>Cultivando a terra com inovação, responsabilidade e respeito às futuras gerações.</p>
+            <a href="#pilares" class="btn">Conheça Nossos Pilares</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about container">
+        <h2>Quem Somos</h2>
+        <p>A <strong>AgroForte</strong> nasceu da urgência de redefinir o papel da agricultura no ecossistema global. Acreditamos que a alta produtividade não precisa caminhar separada da conservação ambiental. Nosso foco é implementar e disseminar práticas que nutrem o solo, protegem a biodiversidade e alimentam o mundo de forma limpa.</p>
+    </section>
+
+    <section id="pilares" class="pillars">
+        <div class="container">
+            <h2>Nossos Pilares Sustentáveis</h2>
+            <div class="card-grid">
+                <div class="card">
+                    <i data-lucide="shield-check" class="card-icon"></i>
+                    <h3>Preservação Consciente</h3>
+                    <p>Manejo de solo e rotação de culturas para evitar a exaustão dos recursos naturais.</p>
+                </div>
+                <div class="card">
+                    <i data-lucide="cpu" class="card-icon"></i>
+                    <h3>Tecnologia Verde</h3>
+                    <p>Uso de inteligência artificial e drones para otimização de insumos e redução de desperdício.</p>
+                </div>
+                <div class="card">
+                    <i data-lucide="droplet" class="card-icon"></i>
+                    <h3>Gestão Hídrica</h3>
+                    <p>Sistemas inteligentes de irrigação que reduzem drasticamente o consumo de água.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact container">
+        <h2>Fale Conosco</h2>
+        <p>Quer saber mais sobre como transformar sua produção? Entre em contato com a nossa equipe.</p>
+        <form id="form-contato">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+            <button type="submit" class="btn">Enviar Mensagem</button>
+        </form>
+        <div id="form-feedback" class="feedback-msg"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroForte. Todos os direitos reservados. O futuro é sustentável.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
